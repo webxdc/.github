@@ -1,4 +1,4 @@
-name: Create .xdc release
+name: Create .xdc Release
 
 on:
   push:

@@ -1,0 +1,8 @@
+{
+	"name": "Create .xdc Release",
+	"description": "On each tag on the main branch, automatically build a release of your project with ./create-xdc.sh and create a github release with it.",
+	"iconName": "icon-webxdc.svg",
+	"filePatterns": [
+		"index.html"
+	]
+}
