@@ -1,0 +1,26 @@
+name: Create .xdc release
+
+on:
+  push:
+    tags:
+    - '*'
+    branches:
+    - main
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: build .xdc file
+      run: |
+        wget https://github.com/webxdc/webxdc-dev/blob/master/create-xdc.sh
+        ./create-xdc.sh ${{ github.event.repository.name }}
+    - uses: ncipollo/release-action@v1.10
+      with:
+        artifacts: ${{ github.event.repository.name }}.xdc
+
