@@ -1,7 +1,7 @@
 {
 	"name": "Create .xdc Release With Python Requirements",
 	"description": "On each tag on the main branch, automatically build a release of your project with ./build.py and create a github release with it.",
-	"iconName": "icon-webxdc.svg",
+	"iconName": "icon-webxdc",
 	"filePatterns": [
 		"index.html",
 		"requirements.txt",
