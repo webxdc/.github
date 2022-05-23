@@ -28,7 +28,7 @@ jobs:
       if: steps.build.outcome != 'success'
       with:
         artifacts: ${{ github.event.repository.name }}
-    - uses: ncipollo/release-action@v1.10
+    - uses: ncipollo/release-action@v1
       if: steps.build.outcome == 'success'
       with:
         artifacts: ${{ github.event.repository.name }}.xdc
