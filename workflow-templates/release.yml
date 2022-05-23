@@ -19,6 +19,7 @@ jobs:
         wget https://github.com/webxdc/webxdc-dev/raw/master/create-xdc.sh
         chmod +x create-xdc.sh
         ./create-xdc.sh ${{ github.event.repository.name }}
+        # This is just a little control flow hack. This ensures the correct file name is uploaded.
         if [[ ${{ github.event.repository.name }} == *.xdc ]]
         then
           exit 1
