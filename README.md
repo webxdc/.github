@@ -8,7 +8,7 @@ GitHub Actions make your life a bit easier:
   on every tag of your repository, to build a `.xdc` file and add it as a
   release to your repository.
 - [release-python.yml](workflow-templates/release-python.yml) does the same,
-  but with your personal python build script (`build.py` by default). 
+  but with your personal python build script.
 
 ## How to Integrate the GitHub Action to Your Repository
 
@@ -16,12 +16,11 @@ Adding a Release Action is as easy as 3 clicks:
 
 ![A screenshot of the GitHub Web Interface, showing where to select the GitHub Actions.](assets/github-release-actions.png)
 
-1. Click on the "Actions" tab in your repository
-  - (if you already have other GitHub Actions, you explicitly need to click on
-    "New Workflow" here)
-2. Scroll down to "By webxdc", click on the GitHub Action you want to include,
+1. **Click on the "Actions" tab** in your repository (if you already have other
+   GitHub Actions, you explicitly need to click on "New Workflow" here)
+2. Scroll down to "By webxdc", **click on the GitHub Action** you want to include,
    e.g. "Create .xdc Release"
-3. Click on "Start commit" to commit it to your `main` branch
+3. **Click on "Start commit"** to commit it to your `main` branch
 
 Now you only need to create a tag on the `main` branch and a release is
 created.
