@@ -5,12 +5,12 @@ Chat messenger](https://delta.chat). To try out webxdc, just **send an .xdc file
 (minimum version 1.30) and press "Start".
 
 If you want to develop your own webxdc,
-best **get started with one of the examples and with our [documentation](https://deltachat.github.io/webxdc_docs/)**.
+best **get started with one of the examples and with the [documentation](https://deltachat.github.io/webxdc_docs/)**.
 
 
 ## Contributing
 
-If you want your webxdc to be listed here, you can write us at
+If you want your webxdc to be listed here, you can write to
 [delta@merlinux.eu](mailto:delta@merlinux.eu).
 
 To be included here, your repository needs
