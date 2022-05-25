@@ -13,7 +13,7 @@ To try out webxdc, just send an .xdc file as an attachment in Delta Chat
 If you want your webxdc to be listed here, you can write us at
 [delta@merlinux.eu](mailto:delta@merlinux.eu).
 
-What your repository needs to be included here:
+To be included here, your repository needs
 
-- your webxdc needs to be compatible with Delta Chat 1.30
+- to be compatible with Delta Chat 1.30
 - a README.md file which explains your webxdc and includes at least one screenshot
