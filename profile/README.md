@@ -11,7 +11,7 @@ best **get started with one of the examples and with the [documentation](https:/
 ## Contributing
 
 If you want your webxdc to be listed here, you can write to
-[delta@merlinux.eu](mailto:delta@merlinux.eu).
+[webxdc@merlinux.eu](mailto:webxdc@merlinux.eu).
 
 To be included here, your repository needs
 
