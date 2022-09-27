@@ -1,3 +1,6 @@
+|[DeltaChat](https://github.com/deltachat)|[Deltachat Bots](https://github.com/deltachat-bot)|**webxdc: Private Apps**|
+|----|---|---|
+
 ## Welcome to webxdc!
 
 Here you can find several webxdc projects, interactive content for the [Delta 
