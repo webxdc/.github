@@ -1,5 +1,5 @@
-|[DeltaChat](https://github.com/deltachat)|[DeltaChat Bots](https://github.com/deltachat-bot)|**webxdc: Private Apps**|
-|----|---|---|
+|[DeltaChat](https://github.com/deltachat)|[DeltaChat Bots](https://github.com/deltachat-bot)|**webxdc: Private Apps**|[cosmos](https://cosmos.delta.chat)|
+|----|---|---|---|
 
 ## Welcome to webxdc!
 
