@@ -18,5 +18,5 @@ If you want your webxdc to be listed here, you can write to
 
 To be included here, your repository needs
 
-- to be compatible with Delta Chat 1.30
+- to be compatible with Delta Chat 1.38
 - a README.md file which explains your webxdc and includes at least one screenshot
